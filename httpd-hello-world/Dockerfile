@@ -1,3 +1,3 @@
-FROM image-registry.openshift-image-registry.svc:5000/testbuild/approved-apache:24
+FROM bitnami/apache:latest
 COPY ./public_html/ /app
 
